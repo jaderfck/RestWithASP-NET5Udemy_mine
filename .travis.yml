@@ -6,7 +6,7 @@ mono: none
 dotnet: 5.0
 services: docker
 before_install:
-  - cd RestWithASP-NET5Udemy_mine\RestWithASPNETUdemy
+  - cd RestWithASPNETUdemy
   - echo "We are in the right folder!"
 script:
   - docker-compose build
