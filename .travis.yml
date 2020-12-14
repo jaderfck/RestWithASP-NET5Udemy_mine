@@ -11,7 +11,7 @@ before_install:
 script:
   - docker-compose build
 before_deploy:
-  - echo "xxx.yyy" | docker login --username "jaderfck" --password-stdin
+  - echo "Melancia.123" | docker login --username "jaderfck" --password-stdin
 deploy:
   provider: script
   script:
